@@ -5,4 +5,5 @@
 
 - 数据结构
   - [线段树](./ds/tree/segmentTree/README.md)
+    - [leetcode850 Rectangle Area II](https://leetcode.com/problems/rectangle-area-ii/description/)
   - [二叉搜索树](./ds/tree/bst/README.md)
