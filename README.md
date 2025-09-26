@@ -1,5 +1,9 @@
 # Algorithm note
 
+- 时间复杂度
+  - 数据结构时间复杂度分析
+  - O(1)算法
+    - [leetcode432 All O'one Data structure](https://leetcode.com/problems/all-oone-data-structure/description/)
 - 基础算法
   - [二分](./basic/binary/README.md)
 
