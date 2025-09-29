@@ -16,3 +16,7 @@
 
   - [Trie 树](./ds/tree/trie/README.md)
     - [leetcode412 Maximum Xor](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/description/)
+
+- DP算法
+  - [卡丹算法](./dp/kadane/README.md)
+    - [leetcode53 Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
