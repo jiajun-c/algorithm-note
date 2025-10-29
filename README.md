@@ -13,6 +13,7 @@
     - [leetcode850 Rectangle Area II](https://leetcode.com/problems/rectangle-area-ii/description/)
     - [leetcode891 Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle/description/)
   - [二叉搜索树](./ds/tree/bst/README.md)
+    - [leetcode197 /maximum-width-of-binary-tree](https://leetcode.com/problems/maximum-width-of-binary-tree/description/)
   - [Trie 树](./ds/tree/trie/README.md)
     - [leetcode412 Maximum Xor](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/description/)
 

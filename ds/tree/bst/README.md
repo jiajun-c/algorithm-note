@@ -6,6 +6,7 @@
 
 二叉查找树是用于数据查找的数据结构，其保证节点的左节点小于节点的val，节点的右节点大于节点的val
 
+### BST的插入删除
 
 ```cpp
 struct TreeNode
@@ -58,3 +59,41 @@ TreeNode* deleteNode(TreeNode* root, int key) {
     return root;
 }
 ```
+
+### BST获取宽度
+
+如果越高二叉树是满的，那么直接获取层数来算就可以了，但是如果说是不满的，那么需要保存对应的索引信息，为了防止溢出，可以考虑每次减去最左边的索引信息。
+
+```cpp
+class Solution {
+public:
+    using data = pair<TreeNode*, long long>;
+    int widthOfBinaryTree(TreeNode* root) {
+    long long ans = 1;
+
+        vector<data>q;
+        q.push_back(data{root, 0});
+        // int level = 0;
+        while(!q.empty())
+        {
+            /* code */
+            vector<data>now;
+            int pos = q[0].second;
+            for (auto v: q) {
+                if (v.first->left)
+                    now.push_back(data{v.first->left, v.second*2ll - pos});
+                if (v.first->right) 
+                    now.push_back(data{v.first->right, v.second*2ll+1 - pos});
+            }
+            q.clear();
+            for (auto d: now) {
+                q.push_back(d);
+            }
+            if (now.size())
+            ans = max(ans, now.back().second - now[0].second + 1);
+        }
+        return ans;
+    }
+};
+```
+
