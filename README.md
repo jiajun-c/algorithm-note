@@ -26,3 +26,7 @@
 - 图算法
   - [环相关](./graph/cycle/README.md)
   - [leetcode457 Circular Array loop](https://leetcode.com/problems/circular-array-loop/description/)
+
+- [离散化](./discrete/README.md)
+  - [leetcode2054 Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events/description/)
+  
