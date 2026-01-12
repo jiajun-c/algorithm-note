@@ -29,4 +29,6 @@
 
 - [离散化](./discrete/README.md)
   - [leetcode2054 Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events/description/)
-  
+
+- 树
+  - [最小生成树](./tree/mst/README.md)
