@@ -16,6 +16,8 @@
     - [leetcode197 /maximum-width-of-binary-tree](https://leetcode.com/problems/maximum-width-of-binary-tree/description/)
   - [Trie 树](./ds/tree/trie/README.md)
     - [leetcode412 Maximum Xor](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/description/)
+  - [扫描线](./scan/README.md)
+    - [leetcode3453 separate-squares-i](https://leetcode.com/problems/separate-squares-i/description)
 
 - DP算法
   - [卡丹算法](./dp/kadane/README.md)
