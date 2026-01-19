@@ -34,3 +34,9 @@
 
 - 树
   - [最小生成树](./tree/mst/README.md)
+
+- [滑动窗口]((./slide/README.md))
+  - 滑动窗口的两种实现
+  - 无限滑动窗口
+
+- [位拆分](./bit/README.md)
