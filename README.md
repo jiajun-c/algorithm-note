@@ -6,6 +6,7 @@
     - [leetcode432 All O'one Data structure](https://leetcode.com/problems/all-oone-data-structure/description/)
 - 基础算法
   - [二分](./basic/binary/README.md)
+    - [leetcode668 Kth Smallest Number...](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/description/?envType=problem-list-v2&envId=vneu9pi6)
   - [DFS/BFS](./basic/search/README.md)
     - [leetcode127 word ladder](https://leetcode.com/problems/word-ladder/description/)
 - 数据结构
@@ -25,3 +26,4 @@
 - 图算法
   - [环相关](./graph/cycle/README.md)
   - [leetcode457 Circular Array loop](https://leetcode.com/problems/circular-array-loop/description/)
+  - [入度出度](./graph/fromTo/README.md)
