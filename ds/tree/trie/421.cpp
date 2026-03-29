@@ -12,7 +12,7 @@ struct Node {
     Node *get(int bit) {
         return child[bit];
     }
-
+    
     void put(int bit, Node *node) {
         child[bit] = node;
     }
@@ -66,3 +66,7 @@ class Solution {
             return maxXor;
         }
     };
+
+int main() {
+    
+}

@@ -14,8 +14,11 @@
     - [leetcode850 Rectangle Area II](https://leetcode.com/problems/rectangle-area-ii/description/)
     - [leetcode891 Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle/description/)
   - [二叉搜索树](./ds/tree/bst/README.md)
+    - [leetcode197 /maximum-width-of-binary-tree](https://leetcode.com/problems/maximum-width-of-binary-tree/description/)
   - [Trie 树](./ds/tree/trie/README.md)
     - [leetcode412 Maximum Xor](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/description/)
+  - [扫描线](./scan/README.md)
+    - [leetcode3453 separate-squares-i](https://leetcode.com/problems/separate-squares-i/description)
 
 - DP算法
   - [卡丹算法](./dp/kadane/README.md)
@@ -27,3 +30,19 @@
   - [环相关](./graph/cycle/README.md)
   - [leetcode457 Circular Array loop](https://leetcode.com/problems/circular-array-loop/description/)
   - [入度出度](./graph/fromTo/README.md)
+
+- [离散化](./discrete/README.md)
+  - [leetcode2054 Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events/description/)
+
+- 树
+  - [最小生成树](./tree/mst/README.md)
+
+- [滑动窗口]((./slide/README.md))
+  - 滑动窗口的两种实现
+  - 无限滑动窗口
+
+- [位拆分](./bit/README.md)
+
+- [前缀和](./perfix/README.md)
+  - 一维前缀和
+  - 二维前缀和
